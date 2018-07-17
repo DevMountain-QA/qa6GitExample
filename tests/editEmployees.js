@@ -7,6 +7,7 @@ module.exports = {
     after: browser => {
         browser.end()
     },
+    //I added something
     //https://dmutah.atlassian.net/browse/DEM-4
     'Cancel Edit': browser => {
         var currentTitle = ""
